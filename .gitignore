@@ -280,3 +280,7 @@ artifacts/
 
 # Internal, non-published docs
 internal-docs/
+
+# Company production docs - never publish
+docs-mdbook/src/appendix/
+community-article-qwen3.6-27b-production.md
