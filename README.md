@@ -10,6 +10,8 @@
 
 </div>
 
+> 📖 源码深度解读（本 fork 自建中文文档，GitHub Pages）：<https://atituiset.github.io/sglang/>
+
 --------------------------------------------------------------------------------
 
 <p align="center">
