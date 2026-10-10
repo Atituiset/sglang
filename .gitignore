@@ -282,5 +282,10 @@ artifacts/
 internal-docs/
 
 # Company production docs - never publish
-docs-mdbook/src/appendix/
+docs-vitepress/appendix/
 community-article-qwen3.6-27b-production.md
+
+# VitePress build output
+docs-vitepress/.vitepress/dist
+docs-vitepress/.vitepress/cache
+docs-vitepress/node_modules/

@@ -27,12 +27,13 @@ SGLang 迭代很快，代码可能和文档有出入；读源码时以仓库当�
 
 ## 如何运行这份文档
 
-文档由 [mdbook](https://rust-lang.github.io/mdBook/) 管理，位于 `docs-mdbook/`：
+文档由 [VitePress](https://vitepress.dev/) 管理，位于 `docs-vitepress/`：
 
 ```bash
-cd docs-mdbook
-mdbook serve --open   # 本地预览 http://localhost:3000
-mdbook build          # 生成静态站点到 book/
+cd docs-vitepress
+npm install
+npm run docs:dev      # 本地预览
+npm run docs:build    # 生成静态站点到 .vitepress/dist/
 ```
 
 线上版已通过 GitHub Actions 部署到 GitHub Pages，见仓库的 `.github/workflows/mdbook-deploy.yml`。
